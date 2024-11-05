@@ -1,0 +1,388 @@
+
+.scroll-container {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display:flex;
+    /* grid-template-columns: auto auto auto; */
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh; */
+    /* width:50px; */
+    background-color: #f0f0f0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.scroll-container {
+    display: flex;
+    overflow-x: scroll;
+    /* width:100%; */
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    /* width: 5000%; */
+    /* height: 100vh; */
+   /* overflow: hidden; */
+   background-repeat: no-repeat;
+}
+.vardhan{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: auto;
+    
+}
+
+
+.scroll-container img  {
+    max-width: 700px;
+    margin: 0 10px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    background-repeat: no-repeat;
+    /* height: 100%; */
+    /* width: 100%; */
+}
+
+.scroll-container img:hover {
+    transform: scale(1.05);
+}
+
+
+
+      body {
+    background-image: url(image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main h1 {
+    text-align: center;
+    border: solid red;
+    background-color: aqua;
+    width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 300px;
+    gap: 10px;
+}
+
+.main-class {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    background-color: chocolate;
+   
+}
+
+.class1 {
+    border: 1px solid white;
+    color: white;
+    width: 35%;
+    height: 10%;
+    
+}
+
+h1 {
+    color: black;
+    background-color: red;
+}
+
+p {
+    font-size: 45px;
+}
+
+h2 {
+    color: white;
+    background-color: yellowgreen;
+    border: 1px solid;
+    text-align: center;
+}
+
+.class3 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 60px;
+    justify-content: space-around;
+}
+
+p {
+    border: 1px solid;
+    color: white;
+    background-color: burlywood;
+}
+
+.mani {
+    display: flex;
+    justify-content: center;
+}
+
+.mani2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.mani3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    position: relative;
+    margin-top: 230px;
+    top: -30px;
+    right: 300px;
+}
+
+.text2 {
+    position: relative;
+    margin-top: 230px;
+    right: 250px;
+    bottom: -140px;
+}
+
+.grid-section {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+
+.gym-image {
+    width: 30vw;
+    height: 90vh;
+}
+
+.card {
+    color: white;
+    border: 1px solid;
+    width: 200px;
+    text-align: center;
+    background-color: beige;
+}
+
+h3 {
+    color: black;
+}
+
+h4 {
+    color: red;
+}
+
+h5 {
+    color: blue;
+}
+
+button {
+    color: black;
+    background-color: yellow;
+}
+
+.card2 {
+    background-color: beige;
+    border: 1px solid;
+    width: 200px;
+    text-align: center;
+}
+
+.vvvv {
+    display: grid;
+}
+
+.arjun {
+    color: black;
+    background-color: white;
+}
+
+input {
+    width: 1000px;
+}
+
+@keyframes h1 {
+    from {
+        transform: translateX(-200px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+h1 {
+    animation-name: h1;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-fill-mode: none;
+}
+
+@keyframes a2 {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+.class2 img {
+    animation-name: a2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.text {
+    animation-name: a2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes card-1 {
+    from {
+        transform: translate(-150px);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+
+.gym-image {
+    animation-name: h1;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+}
+
+.card {
+    animation-name: a2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes vvvv {
+    from {
+        transform: translate(-150px);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+
+.mmmm {
+    animation-name: h1;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .class3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .main-class {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        background-color: chocolate;
+    }
+
+    .class1 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .gym-image {
+        width: 80vw;
+        height: auto;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .mani2 {
+        grid-template-columns: 1fr;
+    }
+
+    .text {
+        position: relative;
+        margin-top: 20px;
+        top: 0;
+        right: 0;
+    }
+
+    .text2 {
+        position: relative;
+        margin-top: 20px;
+        right: 0;
+        bottom: 0;
+    }
+
+    input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
